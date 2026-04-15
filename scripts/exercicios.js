@@ -192,3 +192,76 @@ function exercicio10() {
 }
 const buttonExercicio10 = document.getElementById("exercicio10")
 buttonExercicio10.addEventListener('click', () => { exercicio10() })
+
+function exercicio11() {
+    
+    for (let numero = 3; numero <= 30; numero++) {
+        if (numero % 3 === 0) {
+            alert(numero)
+        }
+    }
+
+}
+const buttonExercicio11 = document.getElementById("exercicio11")
+buttonExercicio11.addEventListener('click', () => { exercicio11() })
+
+function exercicio12() {
+    
+    for (let numero = 1; numero <= 20; numero++) {
+        if (numero % 2 === 0) {
+            alert(numero)
+        }
+    }
+
+}
+const buttonExercicio12 = document.getElementById("exercicio12")
+buttonExercicio12.addEventListener('click', () => { exercicio12() })
+
+function exercicio13() {
+    
+let numero = parseInt(prompt("Digite um número inteiro e positivo:"));
+
+if (numero < 0 )  {
+    alert("Número inválido! Digite um número positivo.");
+} else {
+    let fatorial =1;
+    for (let contador = 1; contador <= numero; contador++){
+        fatorial = fatorial * contador;
+    }
+    alert(numero + "! = " + fatorial)
+}
+    }
+
+const buttonExercicio13 = document.getElementById("exercicio13")
+buttonExercicio13.addEventListener('click', () => { exercicio13() })
+
+function exercicio14() {
+    
+for (let contador = 1; contador <= 10; contador++) {
+    let codigo = parseInt(prompt("Código do aluno " + contador + ":"));
+    let nota = parseFloat(prompt("Nota final do aluno " + contador + " (0 a 10):"));
+    let conceito;
+ 
+    if (nota >= 0 && nota <= 2.9) {
+        conceito = "E";
+    } else if (nota >= 3.0 && nota <= 4.9) {
+        conceito = "D";
+    } else if (nota >= 5.0 && nota <= 6.9) {
+        conceito = "C";
+    } else if (nota >= 7.0 && nota <= 8.9) {
+        conceito = "B";
+    } else if (nota >= 9.0 && nota <= 10.0) {
+        conceito = "A";
+    } else {
+        conceito = "Inválido";
+    }
+ 
+    resultado4 = "Aluno " + codigo + "- Nota: " + nota +  "- Conceito: " + conceito;
+}
+alert(resultado4);
+
+}
+const buttonExercicio14 = document.getElementById("exercicio14")
+buttonExercicio14.addEventListener('click', () => { exercicio14() })
+
+
