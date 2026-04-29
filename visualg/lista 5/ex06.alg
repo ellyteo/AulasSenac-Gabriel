@@ -11,11 +11,10 @@ inicio
   somaAltura <- 0
 
   escreval("Cadastro de jogadores")
-  escreval("Digite a idade ou 0 para sair")
-  escreval("Idade do jogador:")
-  leia(idade)
 
   para contador de 1 ate 10 passo 1 faca
+    escreval("Idade do jogador:")
+    leia(idade)
     escreval("Digite o peso do jogador:")
     leia(peso)
     escreval("Digite a altura do jogador:")
