@@ -4,7 +4,7 @@ var
   i, pares: inteiro
 inicio
 
-  para i de 1 ate 6 faca
+  para i de 1 ate 10 faca
 
     pares <- 0
     vet[1] <- 1 vet[2] <- 2 vet[3] <- 3 vet[4] <- 4 vet[5] <- 5 vet[6] <- 6 vet[7] <- 7 vet[8] <- 8 vet[9] <- 9 vet[10] <- 10
